@@ -1,0 +1,7 @@
+com\qa\swaglabs\pages\LoginPage.class
+com\qa\swaglabs\pages\FinishPage.class
+com\qa\swaglabs\pages\CheckoutOverview.class
+com\qa\swaglabs\pages\InventoryPage.class
+com\qa\swaglabs\base\BasePage.class
+com\qa\swaglabs\pages\CartPage.class
+com\qa\swaglabs\pages\CheckoutPage.class
