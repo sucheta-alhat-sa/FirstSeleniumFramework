@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Testing Swag Labs Testcase Suite" parallel="methods"
+<suite name="Testing Swag Labs Testcase Suite" parallel="tests"
 	thread-count="2" verbose="3">
-
+	<listeners>
+		<listener class-name="com.qa.swaglabs.listeners.AllureReportListener" />
+	</listeners>
 	<test name="Swag Labs Test chrome" parallel="methods" thread-count="2">
 
 		<classes>
 
-		<class name="com.qa.swaglabs.tests.LoginTest" />
+			<class name="com.qa.swaglabs.tests.LoginTest" />
 
-		<class name="com.qa.swaglabs.tests.AddProductToCartTest" />
-</classes>		
-			
-	
+			<class name="com.qa.swaglabs.tests.AddProductToCartTest" />
+		</classes>
+
 
 	</test>
 

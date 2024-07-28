@@ -1,198 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-19T22:42:49 IST" name="Testing Swag Labs Testcase Suite" finished-at="2024-07-19T22:44:07 IST" duration-ms="77702">
+  <suite started-at="2024-07-28T19:46:47 IST" name="Testing Swag Labs Testcase Suite" finished-at="2024-07-28T19:46:56 IST" duration-ms="8952">
     <groups>
       <group name="login">
-        <method signature="AddProductToCartTest.addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@71dfcf21]" name="addProductToCartTest" class="com.qa.swaglabs.tests.AddProductToCartTest"/>
-        <method signature="LoginTest.loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" name="loginPageTitleTest" class="com.qa.swaglabs.tests.LoginTest"/>
-        <method signature="LoginTest.loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" name="loginIntoAppTest" class="com.qa.swaglabs.tests.LoginTest"/>
+        <method signature="AddProductToCartTest.addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@363f0ba0]" name="addProductToCartTest" class="com.qa.swaglabs.tests.AddProductToCartTest"/>
+        <method signature="LoginTest.loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" name="loginPageTitleTest" class="com.qa.swaglabs.tests.LoginTest"/>
+        <method signature="LoginTest.loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" name="loginIntoAppTest" class="com.qa.swaglabs.tests.LoginTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2024-07-19T22:42:49 IST" name="Swag Labs Test chrome" finished-at="2024-07-19T22:44:07 IST" duration-ms="77702">
+    <test started-at="2024-07-28T19:46:47 IST" name="Swag Labs Test chrome" finished-at="2024-07-28T19:46:56 IST" duration-ms="8952">
       <class name="com.qa.swaglabs.tests.AddProductToCartTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@71dfcf21]" started-at="2024-07-19T22:42:49 IST" name="launchApp" finished-at="2024-07-19T22:43:47 IST" duration-ms="57391" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@363f0ba0]" started-at="2024-07-28T19:46:47 IST" name="launchApp" finished-at="2024-07-28T19:46:52 IST" duration-ms="4716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@71dfcf21]" started-at="2024-07-19T22:43:49 IST" name="addProductToCartTest" description="Verify the add to Product cart flow test" finished-at="2024-07-19T22:43:57 IST" duration-ms="8431" status="PASS">
+        <test-method signature="addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@363f0ba0]" started-at="2024-07-28T19:46:52 IST" name="addProductToCartTest" description="Verify the add to Product cart flow test" finished-at="2024-07-28T19:46:55 IST" duration-ms="3606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@71dfcf21]" started-at="2024-07-19T22:43:57 IST" name="tearDown" finished-at="2024-07-19T22:43:59 IST" duration-ms="2131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@363f0ba0]" started-at="2024-07-28T19:46:55 IST" name="tearDown" finished-at="2024-07-28T19:46:56 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.swaglabs.tests.AddProductToCartTest -->
       <class name="com.qa.swaglabs.tests.LoginTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:42:49 IST" name="launchApp" finished-at="2024-07-19T22:43:47 IST" duration-ms="57404" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:47 IST" name="launchApp" finished-at="2024-07-28T19:46:52 IST" duration-ms="4716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:43:49 IST" name="loginPageTitleTest" description="Verify the login page title test" finished-at="2024-07-19T22:43:49 IST" duration-ms="409" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:52 IST" name="loginPageTitleTest" description="Verify the login page title test" finished-at="2024-07-28T19:46:52 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:43:49 IST" name="tearDown" finished-at="2024-07-19T22:43:52 IST" duration-ms="2639" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:52 IST" name="tearDown" finished-at="2024-07-28T19:46:52 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:43:52 IST" name="launchApp" finished-at="2024-07-19T22:44:01 IST" duration-ms="9365" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:52 IST" name="launchApp" finished-at="2024-07-28T19:46:53 IST" duration-ms="965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:43:59 IST" name="launchApp" finished-at="2024-07-19T22:44:07 IST" duration-ms="7063" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92177ea689d9c7d9db64de9584a1f21c, get [url]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92177ea689d9c7d9db64de9584a1f21c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92177ea689d9c7d9db64de9584a1f21c, get [url]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92177ea689d9c7d9db64de9584a1f21c
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at com.qa.swaglabs.basetest.BaseTest.launchApp(BaseTest.java:75)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@2b61844d rejected from java.util.concurrent.ThreadPoolExecutor@65a7fff8[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 25]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:184)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:176)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:865)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:44:01 IST" name="loginIntoAppTest" description="Verify the login into the Application test" finished-at="2024-07-19T22:44:04 IST" duration-ms="2996" status="PASS">
+        <test-method signature="loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:53 IST" name="loginIntoAppTest" description="Verify the login into the Application test" finished-at="2024-07-28T19:46:54 IST" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoAppTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:44:04 IST" name="tearDown" finished-at="2024-07-19T22:44:06 IST" duration-ms="2391" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:54 IST" name="tearDown" finished-at="2024-07-28T19:46:54 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="lockedOutUserTest()[pri:3, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:44:07 IST" name="lockedOutUserTest" description="Verify the lockedout user login into the Application test" finished-at="2024-07-19T22:44:07 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92177ea689d9c7d9db64de9584a1f21c, get [url]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92177ea689d9c7d9db64de9584a1f21c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92177ea689d9c7d9db64de9584a1f21c, get [url]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56746/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92177ea689d9c7d9db64de9584a1f21c
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at com.qa.swaglabs.basetest.BaseTest.launchApp(BaseTest.java:75)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@2b61844d rejected from java.util.concurrent.ThreadPoolExecutor@65a7fff8[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 25]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:184)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:176)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.asyncReceive(Http1AsyncReceiver.java:468)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:589)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onNext(Http1AsyncReceiver.java:546)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:865)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:54 IST" name="launchApp" finished-at="2024-07-28T19:46:55 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="lockedOutUserTest()[pri:3, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:55 IST" name="lockedOutUserTest" description="Verify the lockedout user login into the Application test" finished-at="2024-07-28T19:46:56 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedOutUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@6eaa21d8]" started-at="2024-07-19T22:44:07 IST" name="tearDown" finished-at="2024-07-19T22:44:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@dc7b462]" started-at="2024-07-28T19:46:56 IST" name="tearDown" finished-at="2024-07-28T19:46:56 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

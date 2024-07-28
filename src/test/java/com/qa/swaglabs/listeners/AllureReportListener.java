@@ -22,7 +22,9 @@ public class AllureReportListener implements ITestListener {
 	// Text attachments for Allure
 	@Attachment(value = "Page screenshot", type = "image/png")
 	public byte[] saveScreenshotPNG(WebDriver driver) {
-		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		return screenshot;
+		
 	}
 
 	// Text attachments for Allure
@@ -39,32 +41,34 @@ public class AllureReportListener implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext iTestContext) {
-		System.out.println("I am in onStart method " + iTestContext.getName());
-		//iTestContext.setAttribute("WebDriver", BaseTest.getDriver());
+		System.out.println("I am in on Start method " + iTestContext.getName());
+//		iTestContext.setAttribute("WebDriver", BaseTest.getDriver());
 	}
 
 	@Override
 	public void onFinish(ITestContext iTestContext) {
-		System.out.println("I am in onFinish method " + iTestContext.getName());
+		System.out.println("I am in on Finish method " + iTestContext.getName());
 	}
 
 	@Override
 	public void onTestStart(ITestResult iTestResult) {
-		System.out.println("I am in onTestStart method " + getTestMethodName(iTestResult) + " start");
+		System.out.println("I am in on TestStart method " + getTestMethodName(iTestResult) + " start");
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult iTestResult) {
-		System.out.println("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
+		System.out.println("I am in on TestSuccess method " + getTestMethodName(iTestResult) + " succeed");
 	}
 
 	@Override
+	@Attachment(value = "Page screenshot", type = "image/png")
 	public void onTestFailure(ITestResult iTestResult) {
-		System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
+		System.out.println("I am in on TestFailure method " + getTestMethodName(iTestResult) + " failed");
 		Object testClass = iTestResult.getInstance();
 		driver = BaseTest.getDriver();
 		// Allure ScreenShotRobot and SaveTestLog
 		if (driver instanceof WebDriver) {
+			
 			System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
 			saveScreenshotPNG(driver);
 		}
