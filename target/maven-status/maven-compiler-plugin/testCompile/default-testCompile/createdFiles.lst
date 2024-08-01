@@ -1,5 +1,6 @@
+com\qa\swaglabs\listeners\Listeners.class
 com\qa\swaglabs\tests\LoginTest.class
 com\qa\swaglabs\basetest\BaseTest.class
 com\qa\swaglabs\retrylogic\RetryLogic.class
-com\qa\swaglabs\listeners\AllureReportListener.class
+com\qa\swaglabs\listeners\ExtentReporterNG.class
 com\qa\swaglabs\tests\AddProductToCartTest.class

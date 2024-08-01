@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.swaglabs.base.BasePage;
 
-import io.qameta.allure.Step;
-
 public class FinishPage extends BasePage{
 	WebDriver driver;
 	public FinishPage(WebDriver driver) {
@@ -26,7 +24,7 @@ public class FinishPage extends BasePage{
 	}
 	
 	//page actions
-	@Step("getting the Thank You msg step...")
+	
 	public String thankYouMsgText() {
 		return getThankYouMsg().getText();
 	}

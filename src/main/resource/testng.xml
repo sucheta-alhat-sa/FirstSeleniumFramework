@@ -3,7 +3,7 @@
 <suite name="Testing Swag Labs Testcase Suite" parallel="tests"
 	thread-count="2" verbose="3">
 	<listeners>
-		<listener class-name="com.qa.swaglabs.listeners.AllureReportListener" />
+		<listener class-name="com.qa.swaglabs.listeners.Listeners" />
 	</listeners>
 	<test name="Swag Labs Test chrome" parallel="methods" thread-count="2">
 

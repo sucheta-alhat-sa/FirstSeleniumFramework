@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.swaglabs.base.BasePage;
 
-import io.qameta.allure.Step;
-
 public class CheckoutPage extends BasePage{
 	WebDriver driver;
 	public CheckoutPage(WebDriver driver) {
@@ -46,12 +44,12 @@ public class CheckoutPage extends BasePage{
 	}
 	
 	//page Actions
-	@Step("getting the checkout page header step...")
+	
 	public String checkoutPageHeader() {
 		return getCheckoutHeader().getText();
 	}
 	
-	@Step("Entering the user info into the checkout page step...")
+	
 	public CheckoutOverview enterCheckoutInfo(String firstName, String lastName, String postalCode) {
 		getFirstName().sendKeys(firstName);
 		getLastName().sendKeys(lastName);

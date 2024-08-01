@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.swaglabs.base.BasePage;
 
-import io.qameta.allure.Step;
-
 public class CheckoutOverview extends BasePage{
 	WebDriver driver;
 	public CheckoutOverview(WebDriver driver) {
@@ -36,17 +34,17 @@ public class CheckoutOverview extends BasePage{
 	}
 	
 	//page actions
-	@Step("getting the overview page header step...")
+	
 	public String overviewPageHeader() {
 		return getOverviewHeader().getText();
 	}
 	
-	@Step("getting the inventory page text step...")
+	
 	public String inventoryItems() {
 		return getInventoryItem().getText();
 	}
 	
-	@Step("clicking on the Finish Button step...")
+	
 	public FinishPage clickFinishButton() {
 		getFinishButton().click();
 		FinishPage finishPage = new FinishPage(driver);

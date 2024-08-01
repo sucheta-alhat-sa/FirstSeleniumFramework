@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.swaglabs.base.BasePage;
 
-import io.qameta.allure.Step;
-
 public class CartPage extends BasePage{
 	WebDriver driver;
 	public CartPage(WebDriver driver) {
@@ -31,19 +29,19 @@ public class CartPage extends BasePage{
 	}
 	
 	//page actions
-	@Step("clicking on the Checkout button step...")
+	
 	public CheckoutPage clickCheckoutButton() {
 		getCheckoutButton().click();
 		CheckoutPage checkoutPage = new CheckoutPage(driver);
 		return checkoutPage;
 	}
 	
-	@Step("getting the cart page header text step...")
+	
 	public String cartHeaderText() {
 		return getCartHeader().getText();
 	}
 	
-	@Step("checking the product is getting displayed on the cart step...")
+	
 	public String productDisplayedOnCartPage(String productName) {
 		return driver.findElement(By.xpath("//div[contains(text(),'"+productName+"')]")).getText();
 	}
