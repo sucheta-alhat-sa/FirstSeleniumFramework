@@ -13,9 +13,11 @@ public class ExtentReporterNG {
 		reporter.config().setReportName("Web Automation Results");
 		reporter.config().setDocumentTitle("Test Results");
 		
+	
 		ExtentReports extent =new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "Sucheta");
+		
 		return extent;
 		
 		
