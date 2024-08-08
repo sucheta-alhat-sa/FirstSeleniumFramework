@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-08T19:50:16 IST" name="Testing Swag Labs Testcase Suite" finished-at="2024-08-08T19:50:22 IST" duration-ms="5263">
+  <suite started-at="2024-08-08T19:59:31 IST" name="Testing Swag Labs Testcase Suite" finished-at="2024-08-08T19:59:37 IST" duration-ms="5997">
     <groups>
       <group name="login">
-        <method signature="AddProductToCartTest.addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@14008db3]" name="addProductToCartTest" class="com.qa.swaglabs.tests.AddProductToCartTest"/>
-        <method signature="LoginTest.loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" name="loginPageTitleTest" class="com.qa.swaglabs.tests.LoginTest"/>
-        <method signature="LoginTest.loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" name="loginIntoAppTest" class="com.qa.swaglabs.tests.LoginTest"/>
+        <method signature="AddProductToCartTest.addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@4b34fff9]" name="addProductToCartTest" class="com.qa.swaglabs.tests.AddProductToCartTest"/>
+        <method signature="LoginTest.loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" name="loginPageTitleTest" class="com.qa.swaglabs.tests.LoginTest"/>
+        <method signature="LoginTest.loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" name="loginIntoAppTest" class="com.qa.swaglabs.tests.LoginTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2024-08-08T19:50:16 IST" name="Swag Labs Test chrome" finished-at="2024-08-08T19:50:22 IST" duration-ms="5263">
+    <test started-at="2024-08-08T19:59:31 IST" name="Swag Labs Test chrome" finished-at="2024-08-08T19:59:37 IST" duration-ms="5997">
       <class name="com.qa.swaglabs.tests.AddProductToCartTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@14008db3]" started-at="2024-08-08T19:50:16 IST" name="launchApp" finished-at="2024-08-08T19:50:18 IST" duration-ms="1952" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@4b34fff9]" started-at="2024-08-08T19:59:31 IST" name="launchApp" finished-at="2024-08-08T19:59:34 IST" duration-ms="2281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@14008db3]" started-at="2024-08-08T19:50:18 IST" name="addProductToCartTest" description="Verify the add to Product cart flow test" finished-at="2024-08-08T19:50:20 IST" duration-ms="1733" status="PASS">
+        <test-method signature="addProductToCartTest()[pri:1, instance:com.qa.swaglabs.tests.AddProductToCartTest@4b34fff9]" started-at="2024-08-08T19:59:34 IST" name="addProductToCartTest" description="Verify the add to Product cart flow test" finished-at="2024-08-08T19:59:36 IST" duration-ms="2796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@14008db3]" started-at="2024-08-08T19:50:20 IST" name="tearDown" finished-at="2024-08-08T19:50:20 IST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.AddProductToCartTest@4b34fff9]" started-at="2024-08-08T19:59:36 IST" name="tearDown" finished-at="2024-08-08T19:59:37 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.swaglabs.tests.AddProductToCartTest -->
       <class name="com.qa.swaglabs.tests.LoginTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:16 IST" name="launchApp" finished-at="2024-08-08T19:50:18 IST" duration-ms="1957" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:31 IST" name="launchApp" finished-at="2024-08-08T19:59:34 IST" duration-ms="2280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:18 IST" name="loginPageTitleTest" description="Verify the login page title test" finished-at="2024-08-08T19:50:18 IST" duration-ms="32" status="FAIL">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:34 IST" name="loginPageTitleTest" description="Verify the login page title test" finished-at="2024-08-08T19:59:34 IST" duration-ms="36" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Swag Labs1] but found [Swag Labs]]]>
@@ -66,31 +66,31 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:19 IST" name="tearDown" finished-at="2024-08-08T19:50:19 IST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:34 IST" name="tearDown" finished-at="2024-08-08T19:59:34 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:19 IST" name="launchApp" finished-at="2024-08-08T19:50:20 IST" duration-ms="1085" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:34 IST" name="launchApp" finished-at="2024-08-08T19:59:35 IST" duration-ms="1026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:20 IST" name="loginIntoAppTest" description="Verify the login into the Application test" finished-at="2024-08-08T19:50:21 IST" duration-ms="673" status="PASS">
+        <test-method signature="loginIntoAppTest()[pri:2, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:35 IST" name="loginIntoAppTest" description="Verify the login into the Application test" finished-at="2024-08-08T19:59:36 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoAppTest -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:20 IST" name="launchApp" finished-at="2024-08-08T19:50:21 IST" duration-ms="966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:21 IST" name="tearDown" finished-at="2024-08-08T19:50:21 IST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:36 IST" name="tearDown" finished-at="2024-08-08T19:59:36 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="lockedOutUserTest()[pri:3, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:21 IST" name="lockedOutUserTest" description="Verify the lockedout user login into the Application test" finished-at="2024-08-08T19:50:21 IST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:36 IST" name="launchApp" finished-at="2024-08-08T19:59:37 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="lockedOutUserTest()[pri:3, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:37 IST" name="lockedOutUserTest" description="Verify the lockedout user login into the Application test" finished-at="2024-08-08T19:59:37 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedOutUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@a82c5f1]" started-at="2024-08-08T19:50:21 IST" name="tearDown" finished-at="2024-08-08T19:50:22 IST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.swaglabs.tests.LoginTest@13b3d178]" started-at="2024-08-08T19:59:37 IST" name="tearDown" finished-at="2024-08-08T19:59:37 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
