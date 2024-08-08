@@ -1,14 +1,14 @@
-package com.qa.swaglabs.retrylogic;
+package com.qa.swaglabs.listeners;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class RetryLogic  implements IRetryAnalyzer{
+public class RetryLogic implements IRetryAnalyzer{
 	int count = 0;
-	int maxRetry = 2;
+	int maxTry = 2;
 	@Override
 	public boolean retry(ITestResult result) {
-		if(count<maxRetry) {
+		if(count<maxTry) {
 			count++;
 			return true;
 		}

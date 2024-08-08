@@ -4,12 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qa.swaglabs.basetest.BaseTest;
+import com.qa.swaglabs.listeners.RetryLogic;
 import com.qa.swaglabs.pages.InventoryPage;
-import com.qa.swaglabs.retrylogic.RetryLogic;
 
 public class LoginTest extends BaseTest {
 
-	@Test(priority = 1, groups = { "login" }, description = "Verify the login page title test")
+	@Test(priority = 1, groups = { "login" }, description = "Verify the login page title test", retryAnalyzer = RetryLogic.class)
 
 	public void loginPageTitleTest() {
 		String loginPageTitle = loginPage.getLoginPageTitle();

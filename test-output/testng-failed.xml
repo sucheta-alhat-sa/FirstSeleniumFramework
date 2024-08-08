@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="methods" name="Failed suite [Testing Swag Labs Testcase Suite]" verbose="3">
+<suite thread-count="2" parallel="tests" name="Failed suite [Testing Swag Labs Testcase Suite]" verbose="3">
+  <listeners>
+    <listener class-name="com.qa.swaglabs.listeners.Listeners"/>
+  </listeners>
   <test thread-count="2" parallel="methods" name="Swag Labs Test chrome(failed)" verbose="3">
     <classes>
       <class name="com.qa.swaglabs.tests.LoginTest">
         <methods>
           <include name="tearDown"/>
           <include name="launchApp"/>
-          <include name="lockedOutUserTest"/>
-          <include name="nullUserPasswordTest"/>
+          <include name="loginPageTitleTest"/>
         </methods>
       </class> <!-- com.qa.swaglabs.tests.LoginTest -->
     </classes>
