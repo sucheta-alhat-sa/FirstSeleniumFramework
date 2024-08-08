@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest {
 
 	public void loginPageTitleTest() {
 		String loginPageTitle = loginPage.getLoginPageTitle();
-		Assert.assertEquals(loginPageTitle, "Swag Labs12");
+		Assert.assertEquals(loginPageTitle, "Swag Labs1");
 
 	}
 
